@@ -1,0 +1,22 @@
+{
+  "name": "webpack-angular-stamplay",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ridermansb <ridermansb@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "stamplay-js-sdk": "~1.3.1",
+    "angular-stamplay": "*"
+  }
+}
