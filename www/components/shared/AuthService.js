@@ -2,9 +2,8 @@
 
     var Service = function ($rootScope) {
 
-            var user = new Stamplay.User().Model;
-
             function updateCurrentUser() {
+                var user = new Stamplay.User().Model;
                 return user.currentUser().then(function () {
 
                     var emailVerified = user.get('emailVerified');
@@ -13,7 +12,7 @@
                     }
 
                     if (!user.isLogged()) {
-                        throw "Not able to made a logon, user was not loggin";
+                        throw "Not able to made a logon, user was not login";
                     }
 
                     var displayName = user.get('displayName');
@@ -33,11 +32,12 @@
 
             return {
                 login: function (email, password) {
+                    var user = new Stamplay.User().Model;
+
                     if (user.isLogged()) {
                         user.logout();
                     }
 
-                    user = new Stamplay.User().Model;
                     return user.login(email, password)
                         .then(updateCurrentUser);
                 }
