@@ -1,0 +1,15 @@
+<form name="loginForm" method="post" ng-submit="logon(loginForm.$valid)" novalidate>
+
+  <label for="email"></label>
+  <input id="email" type="email" name="email" value="" required="true" ng-model="email">
+
+  <label for="password"></label>
+  <input  id="password" type="password" name="password" value="" required="true" ng-model="password">
+
+  <input type="submit" name="logon" value="Logon">
+
+  <p>
+    {{errorMessage}}
+  </p>
+
+</form>
