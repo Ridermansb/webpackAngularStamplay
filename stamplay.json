@@ -1,0 +1,10 @@
+{
+  "appId": "webpackangularstamplay",
+  "apiKey": "94cff9eb9b20f860d53c0257366be4f706f1c19bfbfa30d733c31176df09b486",
+  "public": "./www/",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

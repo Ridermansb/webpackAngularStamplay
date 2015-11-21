@@ -1,12 +1,13 @@
 Demo basic usage of [Stamplay JS SDK][stamplay-sdk] + [Angular][angular] + [Webpack][webpack]
 
+See public in https://webpackangularstamplay.stamplayapp.com/#/
+
 # Get starter
 
 `npm install`
 
  - **Run using webpack server** : `npm run start`
  - **Build webpack bundle** : `npm run build`
- 
  
 # Todo
 
