@@ -11,7 +11,7 @@
                     if (typeof(err) === "string") {
                         $scope.errorMessage = err;
                     } else {
-                        $scope.errorMessage = err.responseText;
+                        $scope.errorMessage = err.message;
                     }
 
                     $scope.$apply();
