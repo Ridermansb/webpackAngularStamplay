@@ -2,7 +2,7 @@ Demo basic usage of [Stamplay JS SDK][stamplay-sdk] + [Angular][angular] + [Webp
 
 See public in https://webpackangularstamplay.stamplayapp.com/#/
 
-# Get starter
+# How to run?
 
 `npm install`
 
