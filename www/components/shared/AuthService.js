@@ -15,7 +15,7 @@
                     }
 
                     user.login(email, password)
-                        .then(function (a, b, c) {
+                        .then(function () {
                             user.currentUser().then(function () {
 
                                 var emailVerified = user.get('emailVerified');
