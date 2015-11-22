@@ -16,9 +16,6 @@
 
                     $scope.$apply();
                     console.error('Ops.. error :(', err);
-                })
-                .done(function () {
-                    console.log('Finish with');
                 });
         }
 

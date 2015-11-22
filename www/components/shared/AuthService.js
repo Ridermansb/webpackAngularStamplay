@@ -1,12 +1,10 @@
 (function () {
 
-    var Service = function ($rootScope) {
-
-            var Q = require('q');
+    var Service = function ($rootScope, $q) {
 
             return {
                 login: function (email, password) {
-                    var deferred = Q.defer();
+                    var deferred = $q.defer();
 
                     var user = new Stamplay.User().Model;
 
@@ -46,6 +44,6 @@
         }
         ;
 
-    Service.$inject = ['$rootScope'];
+    Service.$inject = ['$rootScope', '$q'];
     module.exports = Service;
 })();
